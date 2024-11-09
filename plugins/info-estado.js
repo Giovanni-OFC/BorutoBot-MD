@@ -19,8 +19,8 @@ goku += `│ 👑 *Creador ∙* ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰\n`
 goku += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
 goku += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
 goku += `│ 💬 *Total De Chats ∙* ${chats.length}\n`
-goku += `│ 🐉 *Sayayíns Registrados ∙* ${totalreg}\n`
-goku += `│ ☁️ *Grupos Registrados ∙* ${totalchats}\n`
+goku += `│ 🌀 *Ninjas Registrados ∙* ${totalreg}\n`
+goku += `│ ⚡ *Grupos Registrados ∙* ${totalchats}\n`
 goku += `│ 🕜 *Actividad ∙* ${muptime}\n`
 goku += `╰─⬣`
 await conn.sendFile(m.chat, pp, 'luffy.jpg', goku, fkontak, null, rcanal)
