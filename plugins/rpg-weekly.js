@@ -22,7 +22,7 @@ let handler = async (m, { conn }) => {
 🎁 ¡Ha pasado una semana! ¡Disfruta de tu regalo semanal! 🐢
 
 💨 *gokuCoins* : +${we.toLocaleString()}
-🐉 *DragoCoins* : +${cookieReward}
+🌀 *RasenganCoins* : +${cookieReward}
 ✨ *Experiencia* : +${expReward}`);
 
     user.weekly = new Date * 1; // Actualizar la fecha de reclamación
