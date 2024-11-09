@@ -13,7 +13,7 @@ let info = `⛏️ *Te has adentrando en lo profundo de las cuevas*
 > *💥 Obtuviste estos recursos*
 
 💣 *Exp*: ${hasil}
-🐉 *Dragones 🐉*: ${cookies}
+🌀 *Rasengan 🌀*: ${cookies}
 💥 *Esmeralda*: ${emerald}
 🔩 *Hierro*: ${iron}
 🏅 *Oro*: ${gold}
