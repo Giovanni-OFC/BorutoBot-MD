@@ -9,24 +9,24 @@ import moment from 'moment-timezone';
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botnumber = '' //Ejemplo: +573138954963
+global.botnumber = '' //Ejemplo: +5493585130873
 global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-  ['5491157402709', 'Legen-Soporte', true],
-  ['584148256527', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
-  ['50557865603'],
-  ['51923300039'],
-  ['15045475386'],
-  ['584120346669']
+  ['50242073893', 'ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰', true],
+  ['5493585130873', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 Giovanni-OFC', true],
+  ['50242073893'],
+  ['5493585130873'],
+  ['50242073893'],
+  ['5493585130873']
 ];
 
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['584148256527', '5218711426787', '', '', '']
+global.mods = ['5493585130873', '50242073893', '', '', '']
 
-global.suittag = ['584148256527']
+global.suittag = []
 global.prems = []
 
 //cambiar a true si el bot detecta sus propios comandos.
@@ -39,19 +39,19 @@ global.nameqr = 'Kakaroto-Bot'
 global.sessions = 'GokuSession'
 global.jadi = 'GokuJadiBot'
 
-//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
+//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🌱
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
-global.packname = ` 💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫`
-global.author = `♾━━━━━━━━\n⇝͟͞ 💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆❄︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫༯`;
-global.wm = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫';
-global.titulowm = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫';
-global.titulowm2 = `💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫`
-global.igfg = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.botname = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.dev = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.textbot = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.gt = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫';
-global.namechannel = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
+global.packname = `ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ`
+global.author = `♾━━━━━━━━\n⇝͟͞ ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ⋰∴⋱𝕺𝖋𝖎𝖈𝖎𝖆𝖑\n⇝ ۵✎𝕱𝖚𝖊𝖓𝖙𝖊⋰⋰𝕺𝖜𝖓𝖊𝖗 ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ᘛ「 Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ`;
+global.wm = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ';
+global.titulowm = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ';
+global.titulowm2 = `ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ`
+global.igfg = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
+global.botname = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
+global.dev = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
+global.textbot = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
+global.gt = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ';
+global.namechannel = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
 
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
