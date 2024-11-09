@@ -748,7 +748,7 @@ owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.',
 mods: '「👨‍💻」 *Esta función solo puede ser usada por mis desarrolladores.*\n\n* *CANAL DE ANIME 💫*\n\n https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L', 
 premium: '「⚜️」 *Esta función solo es para usuarios Premium.', 
 group: '「💨」 *Este comando solo puede ser utilizada en grupos.*\n\n*UTILIZA EL COMANDO* _.grupos_ \n\n *CANAL DE ANIME 💫*\n\n https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L', 
-private: '「🌀」 *Esta función solo puede ser usada en chat privado.*\n\n *CANAL DE ANIME 💫*\n\n https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t', 
+private: '「🌀」 *Esta función solo puede ser usada en chat privado.*\n\n *CANAL DE ANIME 💫*\n\n ', https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L
 admin: '「👑」 *Este comando solo puede ser usado por admins.*\n\n *CANAL DE ANIME 💫*\n\n https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L', 
 botAdmin: '「🔱」 *Para usar esta función debo ser admin.*\n\n *CANAL DE ANIME 💫 *\n\n https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L', 
 unreg: '「⚡」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*#reg nombre.edad*\n\n*_❕ Ejemplo_* \n\n*#reg Jostin.18*\n\n *CANAL ANIME 💫*\n\n https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L',
