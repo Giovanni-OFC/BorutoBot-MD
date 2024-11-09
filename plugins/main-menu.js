@@ -174,7 +174,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 // await conn.reply(m.chat, '╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹*\n├ ⚘݄𖠵⃕⁖𖥔.Ƈᴀʀɢᴀɴᴅᴏ,  ꪶꪾ❍̵̤̂̂ꫂ\n├Ąɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ❞\n╰ׁ̻─ׅׄ─۪۬─۟─۪─۟─۪۬─۟─۪─۟─۪۬─۟─۪─۟┄۪۬┄۟┄۪┈۟┈۪', m, { contextInfo:{ forwardingScore: 2024, isForwarded: true, externalAdReply: {title: namechannel, body: dev, sourceUrl: channel, thumbnail: icons }}})
 
-await m.react('🐉') 
+await m.react('🌀') 
 
 await conn.sendMessage(
   m.chat,
@@ -184,12 +184,12 @@ await conn.sendMessage(
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363350628883149@newsletter',
-      newsletterName: 'CANAL 𝐊𝐀𝐊𝐀𝐑𝐎𝐓𝐎/☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆',
+      newsletterName: 'CANAL 𝘽𝙤𝙧𝙪𝙩𝙤/ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰',
       serverMessageId: -1,
     },
     forwardingScore: 999,
     externalAdReply: {
-      title: 'Kakaroto',
+      title: 'Boruto',
       body: dev,
       thumbnailUrl: fotoperfil,
       sourceUrl: redes,
