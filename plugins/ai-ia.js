@@ -74,7 +74,7 @@ throw error }}*/
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, text }) => {
-if (!text) return m.reply('🐉 Ingresa un texto para hablar con el Bot')
+if (!text) return m.reply('⚡ Ingresa un texto para hablar con el Bot')
 
 try {
 let api = await fetch(`https://deliriussapi-oficial.vercel.app/ia/chatgpt?q=${text}`)
