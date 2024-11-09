@@ -65,7 +65,7 @@ description: "obten todos los comandos xxx,
 id: `${prefijo}menuhorny`,
 },
 {
-title: "│🐉│juegos del bot", 
+title: "│⚡│juegos del bot", 
 description: "Todos los juegos disponibles en el bot,
 id: `${prefijo}menujuegos`,
 },
@@ -91,7 +91,7 @@ id: `${prefijo}bots`,
 },
 })   
 
-let vid = "https://qu.ax/Tdqmz.jpg"
+let vid = "https://qu.ax/Tdqmz.jpg"" 
 let img = "https://qu.ax/fcOAa.jpg"
 await conn.sendListB(m.chat, menu, txt, `TOCA AQUÍ.`, [vid, img].getRandom(), listSections, m)                             ;
 };
