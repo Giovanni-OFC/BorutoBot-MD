@@ -5,7 +5,7 @@ if (!(who in global.db.data.users)) return conn.reply(m.chat, '💨 El usuario n
 let user = global.db.data.users[who]
 await m.reply(`${who == m.sender ? `Tienes *${user.cookies} Rasengan 🌀* en tu Cartera` : `El usuario @${who.split('@')[0]} tiene *${user.cookies} Rasengan 🌀* en su Cartera`}. `, null, { mentions: [who] })}
 
-handler.help = ['dragones']
+handler.help = ['rasengan']
 handler.tags = ['rpg']
 handler.command = ['wallet', 'cartera', 'rasengan', 'bal', 'coins']
 handler.register = true 
