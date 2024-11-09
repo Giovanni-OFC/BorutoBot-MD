@@ -307,7 +307,7 @@ const mainBotAuthFile = 'BorutoSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🚩 BORUTOBOT-MD conectado correctamente.`))
+console.log(chalk.bold.greenBright(`🚩 BorutoBot-MD conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
