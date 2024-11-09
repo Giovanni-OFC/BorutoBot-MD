@@ -38,8 +38,8 @@ var handler = async (m, { conn }) => {
     m.reply(`
 \`\`\`🎄 ¡Feliz Navidad! ¡Disfruta de tu regalo navideño! 🎁\`\`\`
 
-💨 *gokuCoins* : +${coinReward.toLocaleString()}
-🐉 *DragoCoins* : +${cookieReward}
+⚡ *RayosCoins* : +${coinReward.toLocaleString()}
+🌀 *RasenganCoins* : +${cookieReward}
 ✨ *Experiencia* : +${expReward}
 🎁 *Regalos Navideños* : +${giftReward}`);
 
