@@ -108,6 +108,6 @@ global.icono = [
 'https://i.ibb.co/3cDXrvL/file.jpg'
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323286489957@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '⚡ 𝙴𝙻 𝙱𝙾𝚃 𝙼𝙰𝚂 𝚁𝙰𝙿𝙸𝙳𝙾', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363351647492560@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '⚡ 𝙴𝙻 𝙱𝙾𝚃 𝙼𝙰𝚂 𝚁𝙰𝙿𝙸𝙳𝙾', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
