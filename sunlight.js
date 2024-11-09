@@ -432,13 +432,13 @@ unlinkSync(filePath)})
 }
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./MeguminSession")
+let directorio = readdirSync("./BorutoSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./GokuSession/${files}`)
+unlinkSync(`./BorutoSession/${files}`)
 })
 } 
 function purgeSessionSB() {
