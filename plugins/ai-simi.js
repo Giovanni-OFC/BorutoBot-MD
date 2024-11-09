@@ -13,10 +13,10 @@ conn.sendMessage(m.chat, { text: resSimi.resultado.simsimi }, { quoted: m });
 return conn.reply(m.chat, '❌ Ocurrió un error', m, fake);
 }};
 
-handler.help = ['goku', 'kakaroto'];
+handler.help = ['boruto', 'rayo'];
 handler.tags = ['ai'];
 handler.register = true;
-handler.command = ['kakaroto', 'bot', 'Goku', 'goku'];
+handler.command = ['rayo', 'boruto', 'azul'];
 export default handler;
 
 async function simitalk(ask, apikeyyy = "iJ6FxuA9vxlvz5cKQCt3", language = "es") {
