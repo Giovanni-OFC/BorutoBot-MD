@@ -8,16 +8,16 @@ if (args[0] == 'all') {
 let count = parseInt(user.cookies)
 user.cookies -= count * 1
 user.bank += count * 1
-await m.reply(`Depositaste *${count} Dragones 🌀* al Banco.`)
+await m.reply(`Depositaste *${count} Rasengan 🌀* al Banco.`)
 return !0
 }
 if (!Number(args[0])) return m.reply('🚩 La cantidad deve ser un Numero.')
 let count = parseInt(args[0])
-if (!user.cookies) return m.reply('No tienes *Dragones 🌀* en la Cartera.')
+if (!user.cookies) return m.reply('No tienes *Rasengan 🌀* en la Cartera.')
 if (user.cookies < count) return m.reply(`Solo tienes *${user.cookies} Rasengan 🌀* en la Cartera.*`)
 user.cookies -= count * 1
 user.bank += count * 1
-await m.reply(`Depositaste *${count} Dragones 🌀* al Banco.`)}
+await m.reply(`Depositaste *${count} Rasengan 🌀* al Banco.`)}
 
 handler.help = ['depositar']
 handler.tags = ['rpg']
