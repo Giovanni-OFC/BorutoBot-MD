@@ -278,9 +278,9 @@ console.log(chalk.bold.redBright(`\n⚠️❗ RAZON DE DESCONEXIÓN DESCONOCIDA:
 process.on('uncaughtException', console.error);
 
 async function connectSubBots() {
-const subBotDirectory = './GokuJadiBot';
+const subBotDirectory = './BorutoJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🚩 kakaroto-Bot no tiene Sub-Bots vinculados.');
+console.log('🚩 BorutoBotno tiene Sub-Bots vinculados.');
 return;
 }
 
