@@ -30,7 +30,7 @@ var handler = async (m, { conn }) => {
     conn.reply(m.chat, `🎉 *Recompensa Anual Reclamada*
 
 Recursos:
-🐉 DragoCoins : *+${annualReward.cookie}*
+🌀 RasenganCoins : *+${annualReward.cookie}*
 💎 Diamantes : *+${annualReward.diamond}*
 💨 gokuCoins : *+${annualReward.coin}*
 ✨ Xp : *+${annualReward.exp}*`, m);
