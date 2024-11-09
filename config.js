@@ -9,7 +9,7 @@ import moment from 'moment-timezone';
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botnumber = '' //Ejemplo: +5493585130873
+global.botnumber = '' //Ejemplo: +50242073893
 global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
@@ -35,9 +35,9 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.8'
 global.vs = '3.0.3'
 global.languaje = 'Español'
-global.nameqr = 'Kakaroto-Bot'
-global.sessions = 'GokuSession'
-global.jadi = 'GokuJadiBot'
+global.nameqr = 'Boruto-Bot'
+global.sessions = 'BorutoSession'
+global.jadi = 'BorutoJadiBot'
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🌱
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
@@ -104,15 +104,15 @@ global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remote
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Kakaroto༆', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
  
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp4 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Grupo Oficial De Drako
-global.gp1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Grupo 
-global.gp2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'//
-global.comunidad1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Comunidad Drako
-global.channel = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal Oficial
-global.yt = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal De Youtube
-global.md = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Github Oficial
-global.correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.cn ='https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t';
+global.gp4 = 'https://chat.whatsapp.com/KqgfXii6sQ6GY7ShPkIBMi' //Grupo Oficial Del Rayo Azul De La Aldea Escondida De La Hoja
+global.gp1 = 'https://chat.whatsapp.com/KqgfXii6sQ6GY7ShPkIBMi' //Grupo 
+global.gp2 = 'https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L'//
+global.comunidad1 = 'https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L' //Comunidad Drako
+global.channel = 'https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L' //Canal Oficial
+global.yt = 'https://youtube.com/@gastinff?si=NTRpRtW6zuI5XF2R' //Canal De Youtube
+global.md = 'https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L' //Github Oficial
+global.correo = 'coderzmasterteam.1@gmail.com'
+global.cn ='https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L';
 
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🍭' + hour;
