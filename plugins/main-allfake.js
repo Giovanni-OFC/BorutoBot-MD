@@ -33,12 +33,12 @@ global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https
 //creador y otros
 global.creador = 'Wa.me/5491166401905'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/5491166401905'
-global.namechannel = ' 💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.namechannel2 = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.namegrupo = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.namecomu = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
-global.namecomu2 = '💫𝗧𝗘𝗔𝗠 𝗔𝗡𝗜𝗠𝗘 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦💫'
+global.asistencia = 'Wa.me/50242073893'
+global.namechannel = ' ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
+global.namechannel2 = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
+global.namegrupo = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
+global.namecomu = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
+global.namecomu2 = 'ᘛ「Cᴏᴅᴇʀᴢ Mᴀsᴛᴇʀ」ϟ'
 global.colab1 = 'Miguelon'
 global.colab2 = 'Steven'
 global.colab3 = 'Dino'
@@ -48,26 +48,26 @@ global.rwait = '🕒'
 global.done = '✅'
 global.error = '✖️'
 
-//Emojis determinado de Ai Yaemori
-global.emoji = '🔥'
-global.emoji2 = '💥'
-global.emoji3 = '❤️‍🔥'
-global.emoji4 = '🍭'
+//Emojis determinado de Ai Boruto 
+global.emoji = '🌀'
+global.emoji2 = '⚡'
+global.emoji3 = '🍜'
+global.emoji4 = '⚡'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
-global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
-global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
-global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁o ...*';
+global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝙤 ...*';
+global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝙤 ...*';
+global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝙤 ...*';
+global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝙤 ...*';
 
 //Enlaces
-var grupo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var git =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var youtube =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var github = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-let correo =  'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
+var grupo = 'https://chat.whatsapp.com/KqgfXii6sQ6GY7ShPkIBMi'
+var canal = 'https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L'
+var git =  'https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L'
+var youtube =  'https://youtube.com/@gastinff?si=NTRpRtW6zuI5XF2R'
+var github = 'https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L'
+let correo =  'coderzmasterteam.1@gmail.com'
 
 global.redes = [canal, grupo, git, youtube, github, correo].getRandom()
 
