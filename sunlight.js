@@ -280,7 +280,7 @@ process.on('uncaughtException', console.error);
 async function connectSubBots() {
 const subBotDirectory = './BorutoJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🚩 BorutoBotno tiene Sub-Bots vinculados.');
+console.log('🚩 BorutoBot no tiene Sub-Bots vinculados.');
 return;
 }
 
