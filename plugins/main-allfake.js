@@ -96,18 +96,18 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363323286489957@newsletter', newsletterName: "Kakaroto", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363351647492560@newsletter', newsletterName: "Boruto", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
-'https://qu.ax/hPJa.jpg',
-'https://qu.ax/wqN.jpg',
-'https://qu.ax/sVtk.jpeg',
-'https://qu.ax/xmbi.jpg',
-'https://qu.ax/xmbi.jpg',
-'https://qu.ax/wqN.jpg'
+'https://i.ibb.co/2tQk7Tx/file.jpg',
+'https://i.ibb.co/jLJ1mkh/file.jpg',
+'https://i.ibb.co/tBdPrxd/file.jpg',
+'https://i.ibb.co/S5nvP2H/file.jpg',
+'https://i.ibb.co/5kjJFqz/file.jpg',
+'https://i.ibb.co/3cDXrvL/file.jpg'
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323286489957@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '⚡ ꜞᵉˡ ᵇᵒᵗ ᵐᵃˢ ᶠᵘᵉʳᵗᵉꜝ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323286489957@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '⚡ 𝙴𝙻 𝙱𝙾𝚃 𝙼𝙰𝚂 𝚁𝙰𝙿𝙸𝙳𝙾', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
