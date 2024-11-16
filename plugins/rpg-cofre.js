@@ -22,8 +22,8 @@ const handler = async (m, {isPrems, conn}) => {
 ╭━〔 ${global.botname} 〕⬣
 ┃ *${dia} Rasengan* 🌀
 ┃ *${tok} Tokens* 💰
-┃ *${ai} gokuCoins* 💨
-┃ *${expp} Exp* ⚡
+┃ *${ai} rayoCoin* ⚡
+┃ *${expp} Exp* 🌟
 ╰━━━━━━━━━━━━⬣`;
 
   const fkontak = {
