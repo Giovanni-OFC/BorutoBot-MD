@@ -32,7 +32,7 @@ var handler = async (m, { conn }) => {
 Recursos:
 🌀 RasenganCoins : *+${annualReward.cookie}*
 💎 Diamantes : *+${annualReward.diamond}*
-💨 gokuCoins : *+${annualReward.coin}*
+⚡ rayoCoins : *+${annualReward.coin}*
 ✨ Xp : *+${annualReward.exp}*`, m);
 }
 
