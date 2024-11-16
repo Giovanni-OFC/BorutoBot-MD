@@ -14,15 +14,15 @@ let muptime = clockString(_muptime)
 const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) 
 const used = process.memoryUsage()
-let goku = `╭─⬣「 *Estado De Boruto* 」⬣\n`
-goku += `│ 👑 *Creador ∙* ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰\n`
-goku += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
-goku += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
-goku += `│ 💬 *Total De Chats ∙* ${chats.length}\n`
-goku += `│ 🌀 *Ninjas Registrados ∙* ${totalreg}\n`
-goku += `│ ⚡ *Grupos Registrados ∙* ${totalchats}\n`
-goku += `│ 🕜 *Actividad ∙* ${muptime}\n`
-goku += `╰─⬣`
+let boruto = `╭─⬣「 *Estado De Boruto* 」⬣\n`
+boruto += `│ 👑 *Creador ∙* ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰\n`
+boruto += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
+boruto += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
+boruto += `│ 💬 *Total De Chats ∙* ${chats.length}\n`
+boruto += `│ 🌀 *Ninjas Registrados ∙* ${totalreg}\n`
+boruto += `│ ⚡ *Grupos Registrados ∙* ${totalchats}\n`
+boruto += `│ 🕜 *Actividad ∙* ${muptime}\n`
+boruto += `╰─⬣`
 await conn.sendFile(m.chat, pp, 'luffy.jpg', goku, fkontak, null, rcanal)
 }
 handler.help = ['status']
