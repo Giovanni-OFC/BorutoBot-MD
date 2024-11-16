@@ -7,7 +7,7 @@ await m.react(rwait)
 let d = new Date
 let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric' })
 let database = await fs.readFileSync(`./database.json`)
-let creds = await fs.readFileSync(`./GokuSession/creds.json`)
+let creds = await fs.readFileSync(`./BorutoSession/creds.json`)
 await conn.reply(m.chat, `*• Fecha:* ${date}`, m)
 await conn.sendMessage(m.sender, {document: database, mimetype: 'application/json', fileName: `database.json`}, { quoted: fkontak })
 await m.react(done)
