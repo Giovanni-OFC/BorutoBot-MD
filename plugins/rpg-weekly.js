@@ -21,7 +21,7 @@ let handler = async (m, { conn }) => {
     m.reply(`
 🎁 ¡Ha pasado una semana! ¡Disfruta de tu regalo semanal! 🐢
 
-💨 *gokuCoins* : +${we.toLocaleString()}
+⚡ *rayoCoins* : +${we.toLocaleString()}
 🌀 *RasenganCoins* : +${cookieReward}
 ✨ *Experiencia* : +${expReward}`);
 
