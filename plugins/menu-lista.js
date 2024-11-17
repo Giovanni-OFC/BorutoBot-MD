@@ -46,7 +46,7 @@ title: `✎ SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular Kakaroto`,
 rows: [
 {
 title: "│🤴│ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ʙᴏᴛ", 
-description: "ɴᴜᴍᴇʀᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇ legend",
+description: "ɴᴜᴍᴇʀᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇ ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰",
 id: `${prefijo}owner`,
 },
 {
