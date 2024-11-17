@@ -103,8 +103,8 @@ global.chatgpt.chain = lodash.chain(global.chatgpt.data);
 loadChatgptDB();
 
 global.creds = 'creds.json'
-global.authFile = 'BorutoSession'
-global.authFileJB  = 'BorutoJadiBot'
+global.authFile = 'GokuSession'
+global.authFileJB  = 'GokuJadiBot'
 /*global.rutaBot = join(__dirname, authFile)
 global.rutaJadiBot = join(__dirname, authFileJB)
 
@@ -154,7 +154,7 @@ opcion = await question(`╭${lineM}
 │ ${chalk.blueBright('┊')} ${chalk.italic.magenta("Escriba solo el numero de")}
 │ ${chalk.blueBright('┊')} ${chalk.italic.magenta("La opcion para conectarse")}
 │ ${chalk.blueBright('╰┄┈┅┈┄┈┅┈┄┅┈┄┈┅┄┈┅┈┄')} 
-│ ${chalk.italic.red(`Rayooo!!! ⚡`)}
+│ ${chalk.italic.red(`𝓚𝓐𝓚𝓐𝓡𝓞𝓣𝓞-𝓑𝓞𝓣 🐉`)}
 ╰${lineM}\n${chalk.bold.magentaBright('---> ')}`)
 if (!/^[1-2]$/.test(opcion)) {
 console.log(chalk.bold.redBright(`NO SE PERMITE NÚMEROS QUE NO SEAN ${chalk.bold.greenBright("1")} O ${chalk.bold.greenBright("2")}, TAMPOCO LETRAS O SÍMBOLOS ESPECIALES.\n${chalk.bold.yellowBright("CONSEJO: COPIE EL NÚMERO DE LA OPCIÓN Y PÉGUELO EN LA CONSOLA.")}`))
@@ -176,7 +176,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['BorutoBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['BorutoBot-MD', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['Kakaroto-Bot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['Kakaroto-Bot-MD', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -226,7 +226,7 @@ conn.well = false
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
-if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', "MeguminJadiBot"], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '2', '-type', 'f', '-delete'])))}, 30 * 1000)}
+if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', "GokuJadiBot"], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '2', '-type', 'f', '-delete'])))}, 30 * 1000)}
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
 async function getMessage(key) {
 if (store) {
@@ -246,7 +246,7 @@ global.timestamp.connect = new Date
 if (global.db.data == null) loadDatabase()
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-console.log(chalk.bold.yellow(`\n💥 ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
+console.log(chalk.bold.yellow(`\n🐉 ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
 if (connection == 'open') {
 console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ 🟢 Se ha conectado con WhatsApp exitosamente.\n│\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒`))}
@@ -266,7 +266,7 @@ console.log(chalk.bold.yellowBright("╭┄┄┄┄┄┄┄┄┄┄┄┄┄�
 console.log(chalk.bold.redBright(`\n⚠️ SIN CONEXIÓN, BORRE LA CARPETA ${global.authFile} Y ESCANEA EL CÓDIGO QR ⚠️`))
 await global.reloadHandler(true).catch(console.error)
 } else if (reason === DisconnectReason.restartRequired) {
-console.log(chalk.bold.cyanBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓\n┆ ❇️ CONECTANDO AL SERVIDOR...\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓`))
+console.log(chalk.bold.cyanBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓\n┆ ☁️ CONECTANDO AL SERVIDOR...\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓`))
 await global.reloadHandler(true).catch(console.error)
 } else if (reason === DisconnectReason.timedOut) {
 console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸\n┆ ⌛ TIEMPO DE CONEXIÓN AGOTADO, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸`))
@@ -278,9 +278,9 @@ console.log(chalk.bold.redBright(`\n⚠️❗ RAZON DE DESCONEXIÓN DESCONOCIDA:
 process.on('uncaughtException', console.error);
 
 async function connectSubBots() {
-const subBotDirectory = './BorutoJadiBot';
+const subBotDirectory = './GokuJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🚩 BorutoBot no tiene Sub-Bots vinculados.');
+console.log('💨 Kakaroto-Bot-MD no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -297,21 +297,21 @@ return await connectionUpdate(authFile);
 
 const bots = await Promise.all(botPromises);
 global.conns = bots.filter(Boolean);
-console.log(chalk.bold.greenBright(`🍟 Todos los Sub-Bots se conectaron con éxito.`))
+console.log(chalk.bold.greenBright(`🐉 Todos los Sub-Bots se conectaron con éxito.`))
 }
 
 (async () => {
 global.conns = [];
 
-const mainBotAuthFile = 'BorutoSession';
+const mainBotAuthFile = 'GokuSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🚩 BorutoBot-MD conectado correctamente.`))
+console.log(chalk.bold.greenBright(`☁️ Ai Kakaroto conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`⚡ Error al iniciar BorutoBot-MD: `, error))
+console.error(chalk.bold.cyanBright(`💨 Error al iniciar Kakaroto-Bot-MD: `, error))
 }
 })();
 
@@ -432,13 +432,13 @@ unlinkSync(filePath)})
 }
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./BorutoSession")
+let directorio = readdirSync("./GokuSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./BorutoSession/${files}`)
+unlinkSync(`./GokuSession/${files}`)
 })
 } 
 function purgeSessionSB() {
@@ -457,14 +457,14 @@ unlinkSync(`./${authFileJB}/${directorio}/${fileInDir}`)
 }})
 }})
 if (SBprekey.length === 0) {
-console.log(chalk.bold.green(`\n╭» 🟡 BorutoJadiBot 🟡\n│→ NADA POR ELIMINAR \n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+console.log(chalk.bold.green(`\n╭» 🟡 GokuJadiBot 🟡\n│→ NADA POR ELIMINAR \n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 } else {
-console.log(chalk.bold.cyanBright(`\n╭» ⚪ BorutoJadiBot ⚪\n│→ ARCHIVOS NO ESENCIALES ELIMINADOS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+console.log(chalk.bold.cyanBright(`\n╭» ⚪ GokuJadiBot ⚪\n│→ ARCHIVOS NO ESENCIALES ELIMINADOS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 }} catch (err) {
-console.log(chalk.bold.red(`\n╭» 🔴 BorutoJadiBot 🔴\n│→ OCURRIÓ UN ERROR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️\n` + err))
+console.log(chalk.bold.red(`\n╭» 🔴 GokuJadiBot 🔴\n│→ OCURRIÓ UN ERROR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️\n` + err))
 }}
 function purgeOldFiles() {
-const directories = ['./BorutoSession/', './BorutoJadiBot/']
+const directories = ['./GokuSession/', './GokuJadiBot/']
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
 if (err) throw err
@@ -497,7 +497,7 @@ if (stopped === 'close' || !conn || !conn.user) return
 await purgeOldFiles()
 console.log(chalk.bold.cyanBright(`\n╭» 🟠 ARCHIVOS 🟠\n│→ ARCHIVOS RESIDUALES ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))}, 1000 * 60 * 10)
 
-_quickTest().then(() => conn.logger.info(chalk.bold(`🚩  H E C H O\n`.trim()))).catch(console.error)
+_quickTest().then(() => conn.logger.info(chalk.bold(`🐉  H E C H O\n`.trim()))).catch(console.error)
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
