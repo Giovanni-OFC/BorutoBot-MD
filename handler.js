@@ -158,7 +158,7 @@ global.db.data.chats[m.chat] = {}
 if (chat) {
 if (!('isBanned' in chat)) chat.isBanned = false         
 if (!('welcome' in chat)) chat.welcome = true 
-if (!('autoresponder' in chat)) chat.autoresponder = false           
+if (!('autoresponder' in chat)) chat.autoresponder = false          
 if (!('detect' in chat)) chat.detect = true               
 if (!('sWelcome' in chat)) chat.sWelcome = ''          
 if (!('sBye' in chat)) chat.sBye = ''                    
@@ -167,7 +167,7 @@ if (!('sDemote' in chat)) chat.sDemote = ''
 if (!('sCondition' in chat)) chat.sCondition = JSON.stringify([{ grupo: { usuario: [], condicion: [], admin: '' }, prefijos: []}])
 if (!('delete' in chat)) chat.delete = false                   
 if (!('nsfw' in chat)) chat.nsfw = false
-if (!('autoAceptar' in chat)) chat.autoAceptar = false  
+if (!('autoAceptar' in chat)) chat.autoAceptar = false                   
 if (!('autosticker' in chat)) chat.autosticker = false      
 if (!('audios' in chat)) chat.audios = false
 if (!('antiBot' in chat)) chat.antiBot = false 
@@ -286,10 +286,10 @@ if (opts['swonly'] && m.chat !== 'status@broadcast') return
 if (typeof m.text !== 'string')
 m.text = ''
 
-        /*//if (m.isBaileys) return 
+        //if (m.isBaileys) return 
         if (m.isBaileys || isBaileysFail && m?.sender === this?.this?.user?.jid) {
         return
-        }*/
+        }
 m.exp += Math.ceil(Math.random() * 10)
 let usedPrefix
 let _user = global.db.data && global.db.data.users && global.db.data.users[m.sender]
@@ -310,9 +310,9 @@ continue
 if (plugin.disabled)
 continue
 const __filename = join(___dirname, name)
-/*if (m.sender === this.user.jid) {
+if (m.sender === this.user.jid) {
 continue
-}*/
+}
 if (typeof plugin.all === 'function') {
 try {
 await plugin.all.call(this, m, {
@@ -463,7 +463,7 @@ if (xp > 2000)
 m.reply('Chirrido -_-') 
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-conn.reply(m.chat, `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝙂𝙊𝙆𝙐𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`, m, rcanal)       
+conn.reply(m.chat, `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗠𝗲𝗴𝘂𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`, m, rcanal)       
 continue     
 }
 
@@ -530,7 +530,7 @@ await plugin.after.call(this, m, extra)
 console.error(e)
 }}
 if (m.cookies)
-conn.reply(m.chat, `Utilizaste *${+m.cookies}* 🐉`, m, fake)
+conn.reply(m.chat, `Utilizaste *${+m.cookies}* 🍪`, m, fake)
 }
 if (m.money)
 conn.reply(m.chat, `Utilizaste *${+m.money}* 💰`, m, fake)
@@ -745,16 +745,16 @@ console.error(e)
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> Legendary.', 
-owner: '「🐉」 *Esta función solo puede ser usada por mi desarrollador.', 
-mods: '「🐉」 *Esta función solo puede ser usada por mis desarrolladores.*', 
-premium: '「☁️」 *Esta función solo es para usuarios Premium.', 
-group: '「🐲」 *Esta funcion solo puede ser ejecutada en grupos.*', 
-private: '「💨」 *Esta función solo puede ser usada en chat privado.*', 
-admin: '「⚜️」 *Este comando solo puede ser usado por admins.*', 
-botAdmin: '「⚜️」 *Para usar esta función debo ser admin.*', 
-unreg: '「🐉」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg Legendary.18*',
-restrict: '「☁️」 *Esta característica esta desactivada.*'
+rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> David-Chian.', 
+owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.', 
+mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores.*', 
+premium: '「🍧」 *Esta función solo es para usuarios Premium.', 
+group: '「🐢」 *Esta funcion solo puede ser ejecutada en grupos.*', 
+private: '「🍭」 *Esta función solo puede ser usada en chat privado.*', 
+admin: '「👑」 *Este comando solo puede ser usado por admins.*', 
+botAdmin: '「🚩」 *Para usar esta función debo ser admin.*', 
+unreg: '「🍟」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg David.23*',
+restrict: '「💫」 *Esta característica esta desactivada.*'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 const file = global.__filename(import.meta.url, true);
