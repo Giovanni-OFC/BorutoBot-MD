@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
                 h: `Hmm`,
                 seconds: '99999', 
                 gifPlayback: true, 
-                caption: '⚘݄-ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰', 
+                caption: '©᪲ㅤֺㅤ𑁀⭐ܼܶㅤ𝚋𝚘𝚛𝚞𝚝𝚘 𝚋𝚘𝚝 𝙼𝙳ㅤִㅤｵｵ', 
                 jpegThumbnail: logo5
             }
         }
