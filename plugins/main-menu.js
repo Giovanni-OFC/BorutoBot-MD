@@ -183,7 +183,7 @@ await conn.sendMessage(
     mentionedJid: [m.sender],
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363350628883149@newsletter',
+      newsletterJid: '120363351647492560@newsletter',
       newsletterName: 'CANAL 𝘽𝙤𝙧𝙪𝙩𝙤/ム 𝐉𝐎𝐒𝐓𝐈𝐍-444 ㋰',
       serverMessageId: -1,
     },
