@@ -108,8 +108,8 @@ global.authFileJB  = 'GokuJadiBot'
 /*global.rutaBot = join(__dirname, authFile)
 global.rutaJadiBot = join(__dirname, authFileJB)
 
-if (!fs.existsSync(rutaJadiBot)) {
-fs.mkdirSync(rutaJadiBot)
+if (!fs.existsSync(BorutoJadiBot)) {
+fs.mkdirSync(BorutoJadiBot)
 }
 */
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
@@ -154,7 +154,7 @@ opcion = await question(`╭${lineM}
 │ ${chalk.blueBright('┊')} ${chalk.italic.magenta("Escriba solo el numero de")}
 │ ${chalk.blueBright('┊')} ${chalk.italic.magenta("La opcion para conectarse")}
 │ ${chalk.blueBright('╰┄┈┅┈┄┈┅┈┄┅┈┄┈┅┄┈┅┈┄')} 
-│ ${chalk.italic.red(`𝓚𝓐𝓚𝓐𝓡𝓞𝓣𝓞-𝓑𝓞𝓣 🐉`)}
+│ ${chalk.italic.red(`Boruto-Bot 💥`)}
 ╰${lineM}\n${chalk.bold.magentaBright('---> ')}`)
 if (!/^[1-2]$/.test(opcion)) {
 console.log(chalk.bold.redBright(`NO SE PERMITE NÚMEROS QUE NO SEAN ${chalk.bold.greenBright("1")} O ${chalk.bold.greenBright("2")}, TAMPOCO LETRAS O SÍMBOLOS ESPECIALES.\n${chalk.bold.yellowBright("CONSEJO: COPIE EL NÚMERO DE LA OPCIÓN Y PÉGUELO EN LA CONSOLA.")}`))
@@ -176,7 +176,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['Kakaroto-Bot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['Kakaroto-Bot-MD', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['BorutoBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['BorutoBot-MD', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -246,7 +246,7 @@ global.timestamp.connect = new Date
 if (global.db.data == null) loadDatabase()
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-console.log(chalk.bold.yellow(`\n🐉 ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
+console.log(chalk.bold.yellow(`\n💥 ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
 if (connection == 'open') {
 console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ 🟢 Se ha conectado con WhatsApp exitosamente.\n│\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒`))}
@@ -278,9 +278,9 @@ console.log(chalk.bold.redBright(`\n⚠️❗ RAZON DE DESCONEXIÓN DESCONOCIDA:
 process.on('uncaughtException', console.error);
 
 async function connectSubBots() {
-const subBotDirectory = './GokuJadiBot';
+const subBotDirectory = './BorutoJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('💨 Kakaroto-Bot-MD no tiene Sub-Bots vinculados.');
+console.log('💥 BorutoBot-MD no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -297,21 +297,21 @@ return await connectionUpdate(authFile);
 
 const bots = await Promise.all(botPromises);
 global.conns = bots.filter(Boolean);
-console.log(chalk.bold.greenBright(`🐉 Todos los Sub-Bots se conectaron con éxito.`))
+console.log(chalk.bold.greenBright(`💥 Todos los Sub-Bots se conectaron con éxito.`))
 }
 
 (async () => {
 global.conns = [];
 
-const mainBotAuthFile = 'GokuSession';
+const mainBotAuthFile = 'BorutoSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`☁️ Ai Kakaroto conectado correctamente.`))
+console.log(chalk.bold.greenBright(`💥 BORUTOBOT-MD conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`💨 Error al iniciar Kakaroto-Bot-MD: `, error))
+console.error(chalk.bold.cyanBright(`💥 Error al iniciar BorutoBot-MD: `, error))
 }
 })();
 
