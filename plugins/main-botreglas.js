@@ -12,6 +12,9 @@ let yaemori = `🚩 *Respeta las reglas de Boruto-Bot*\n
 
 ⚠️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos siguiendonos en Github oficial de Jostin-444.*
 
+*SÍGUENOS*
+- https://github.com/Jostin-444
+
 ${global.md}`.trim()
 await conn.reply(m.chat, yaemori, m, fake)
 
