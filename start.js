@@ -280,7 +280,7 @@ process.on('uncaughtException', console.error);
 async function connectSubBots() {
 const subBotDirectory = './MeguminJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🚩 Megumin-Bot no tiene Sub-Bots vinculados.');
+console.log('🚩 Boruto no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -307,7 +307,7 @@ const mainBotAuthFile = 'MeguminSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🚩 Ai Megumin conectado correctamente.`))
+console.log(chalk.bold.greenBright(`🚩 Ai Boruto conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
@@ -438,7 +438,7 @@ return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./MeguminSession/${files}`)
+unlinkSync(`./BorutoSession/${files}`)
 })
 } 
 function purgeSessionSB() {
