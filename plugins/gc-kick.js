@@ -24,7 +24,7 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
 
     await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
 
-//conn.reply(50242073893@s.whatsapp.net', `🚩 Un Admin Acabo De Eliminar Un Usuario En El Grupo:\n> ${groupMetadata.subject}.`, m, rcanal, );
+//conn.reply('50242073893@s.whatsapp.net', `🚩 Un Admin Acabo De Eliminar Un Usuario En El Grupo:\n> ${groupMetadata.subject}.`, m, rcanal, );
 };
 
 handler.help = ['kick'];
