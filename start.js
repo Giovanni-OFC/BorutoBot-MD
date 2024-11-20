@@ -311,7 +311,7 @@ console.log(chalk.bold.greenBright(`🚩 Ai Megumin conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`🍭 Error al iniciar Megumin-Bot: `, error))
+console.error(chalk.bold.cyanBright(`🍭 Error al iniciar BorutoBot-MD: `, error))
 }
 })();
 
@@ -432,7 +432,7 @@ unlinkSync(filePath)})
 }
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./MeguminSession")
+let directorio = readdirSync("./BorutoSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
