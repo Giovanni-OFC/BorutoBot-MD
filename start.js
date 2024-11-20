@@ -457,11 +457,11 @@ unlinkSync(`./${authFileJB}/${directorio}/${fileInDir}`)
 }})
 }})
 if (SBprekey.length === 0) {
-console.log(chalk.bold.green(`\n╭» 🟡 MeguminJadiBot 🟡\n│→ NADA POR ELIMINAR \n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+console.log(chalk.bold.green(`\n╭» 🟡 BorutoJadiBot 🟡\n│→ NADA POR ELIMINAR \n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 } else {
-console.log(chalk.bold.cyanBright(`\n╭» ⚪ MeguminJadiBot ⚪\n│→ ARCHIVOS NO ESENCIALES ELIMINADOS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+console.log(chalk.bold.cyanBright(`\n╭» ⚪ BorutoJadiBot ⚪\n│→ ARCHIVOS NO ESENCIALES ELIMINADOS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 }} catch (err) {
-console.log(chalk.bold.red(`\n╭» 🔴 MeguminJadiBot 🔴\n│→ OCURRIÓ UN ERROR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️\n` + err))
+console.log(chalk.bold.red(`\n╭» 🔴 BorutoJadiBot 🔴\n│→ OCURRIÓ UN ERROR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️\n` + err))
 }}
 function purgeOldFiles() {
 const directories = ['./MeguminSession/', './MeguminJadiBot/']
