@@ -34,7 +34,8 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 • 245 Experiencia 💸
 • 12 Tokens 💰
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
-${packname}`
+${packname}
+https://whatsapp.com/channel/0029VasMNbVG3R3j4Xld3v2L`
 await conn.sendMini(m.chat, '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰', textbot, regbot, imagen1, imagen1, channel, m)
 //await m.reply(`${sn}`)        
 }
